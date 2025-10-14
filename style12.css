@@ -1,0 +1,85 @@
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.intro h2 {
+  font-size: 28px;
+  color: #145a32;
+}
+
+.intro p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1e8449;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card {
+  background: rgb(219, 215, 215);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #333;
+  font-size: 15px;
+}
+
+nav {
+    background-image: url(images/pexels-dariuskrs-2609107.jpg);
+    filter: blur(10%);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  background-color: #145a32;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  margin-top: 30px;
+}
