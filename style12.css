@@ -62,7 +62,7 @@ button:hover {
 }
 
 nav {
-    background-image: url(images/pexels-dariuskrs-2609107.jpg);
+    background-image: url(pexels-dariuskrs-2609107.jpg);
     filter: blur(10%);
   display: flex;
   justify-content: center;
@@ -82,4 +82,5 @@ footer {
   padding: 16px;
   font-size: 14px;
   margin-top: 30px;
+
 }
